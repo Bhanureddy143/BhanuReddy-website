@@ -1,0 +1,128 @@
+
+header
+{
+	width: 100%;
+	height: 70px;
+	margin-top: -10px;
+	background: linear-gradient(to right,blue,red);
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content	: space-around;
+}
+header h1
+{
+
+	margin-top: -10px;
+	padding-right: 10px;
+	margin-left: -80px;
+}
+#a a
+{
+background: orange;
+color: white;
+padding: 7px 15px;
+margin : 20px;
+text-decoration: none;
+border-radius: 20px;
+border: 1px black solid;
+}
+#a a:hover
+{
+	cursor: pointer;
+	box-shadow: 0 0 10px white;
+
+}
+#landingpage
+{
+	height: 600px;
+	background: white url(https://pbs.twimg.com/media/D_Asqe-UEAELuX4.jpg) no-repeat scroll;
+	background-size: cover;
+	
+	
+}
+ .b
+{
+	
+	border: 3px solid blue;
+	height: 100%;
+	width: 100%;
+	color: blue;
+}
+#b
+{
+	color: red;
+	text-align: center;
+}
+.b a{
+	
+	text-decoration: none;
+	padding: 10px;
+	background: orange;
+	border-radius: 20px;
+	width: 70px;
+	margin-left: 600px;
+	margin-top: -50px;
+
+}
+.b a:hover
+{
+	cursor: pointer;
+	box-shadow: 0 0  10px whitesmoke;
+}
+
+section article
+{
+	display: inline-block;
+	height: 440px;
+	width: 300px;
+	border: 2px solid blue;
+}
+article img
+{
+	margin-left: 20px;
+	height: 300px;
+	width: 250px;
+	transition: all 2s linear 0s;
+}
+article img:hover
+{
+	transform: translateY(-30px);
+	cursor: pointer;
+}
+
+article h2
+{
+	text-align: center;
+	color: blue;
+}
+article ul
+{
+		width: 80px;
+		margin-top: -3px;
+	border: red solid 2px;
+	margin-left: 70px;
+	text-align: left;
+
+}
+li{
+	list-style: none;
+
+}
+footer
+{margin-top: 40px;
+	height: 60px;
+	background: black;
+	color: darkred;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+footer small
+{
+		margin-top: 60px;
+		margin-left: -280px;
+	text-align: center;
+}
